@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify+Sans">
+    <title>My Portfolio</title>
+</head>
+<body class="grid-container">
+    <header>
+        <h1>Port<span>folio</span></h1>
+    </header>
+    <br>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="home.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="about.html"><i class="fa fa-user"></i></a></li>
+            <li><a href="skill.html"><i class="fa fa-cogs"></i></a></li>
+            <li><a href="projects.html"><i class="fa fa-file-text"></i></a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i><!--<img src="img/ditto.gif" alt="" width="30px" height="30px">--></a></li> 
+        </ul>
+        <h2>CONTACT <span>ME </span><!--<img src="img/purple-bat.gif" alt="not loaded" width="50px" height="50px">--></h2>
+        <div>
+            <form action="" autocomplete="off" >
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Full Name">
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="E-Mail Id">
+                        </td>
+                        <td>
+                            <input type="tel" id="mbl" name="mbl" placeholder="Phone Number" pattern="[0-9]{10}">
+                        </td>
+                    </tr>
+                    <tr class="message">
+                        <td colspan="3">
+                            <textarea id="message" name="message" placeholder="Enter Your Message" rows="10" cols="50" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit" id="submit" value="Send message" formmethod="post">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br>
+        <div>
+            <p>
+                <a href="https://github.com/Harshajeon" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:harshavarthini09@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/9952668693" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/harsha-varthini--snsinstitutions/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </p>
+        </div>
+    </div>
+    <br>
+    <footer>
+       <p>&copy; 2025 <span>My Portfolio.</span> All rights reserved.</p>
+    </footer>
+    </body>
+</html>

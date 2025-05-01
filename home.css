@@ -1,0 +1,86 @@
+.fa-home{
+  color:#e0acfa;
+  color: #ff7f50;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px  #b789ef;/*#6b35af*/
+  }
+  to {
+    text-shadow: 0 0 30px  #b789ef; 
+  }
+}
+
+div>p{
+  margin-left: 400px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #bd55f2;
+  color: #008080;
+}
+
+div>p>span{
+  color: #ebccfb;
+  color: #ff7f50;
+}
+
+.typing-text {
+  overflow: hidden;      
+  white-space: nowrap;    
+  animation: typing 3s steps(40, end) forwards;
+}
+  
+.typing-text::after {
+  content: '|'; 
+  animation: blink 1s steps(2, start) infinite;
+}  
+  
+@keyframes typing {
+    from { width: 0; }
+    to { width: 50%; }
+}
+
+@keyframes blink {
+    to { opacity: 0; }
+}
+
+button{
+  background: transparent;
+  border: none;
+  font-size: larger;
+  margin-left: 420px;
+}
+
+.fa-file-pdf-o:hover{
+  color:#e0acfa;
+  color: #ff7f50;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px  #b789ef;/*#6b35af*/
+  }
+  to {
+    text-shadow: 0 0 30px  #b789ef; 
+  }
+}
+
+/* MEDIA QUERY 
+
+@media only screen and (min-width:480px){
+  div>p{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #bd55f2;
+  }
+}*/
+
+
+
+  

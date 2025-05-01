@@ -1,0 +1,145 @@
+.fa-phone{
+  color:#e0acfa;
+  color: #ff7f50;
+  animation: glow 1s infinite alternate;
+}
+  
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px  #b789ef;
+  }
+  to {
+    text-shadow: 0 0 30px  #b789ef; 
+  }
+}
+
+h2{
+  color: #ebccfb;
+  color: #ff7f50;
+  margin-left: 540px;
+  animation: glow 60s infinite alternate;
+}
+  
+@keyframes glow {
+  from {
+    text-shadow: 0 0 50px  #b789ef;
+    }
+  to {
+    text-shadow: 0 0 30px  #b789ef; 
+    }
+}
+
+table{
+  text-align: center;
+  margin-left: 200px;
+}
+
+td{
+  color: #ebccfb;
+  color: #ff7f50;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+input{
+  color: #bd55f2;
+  color: #008080;
+  background: transparent;
+  border-style: solid;
+  border-color: #bd55f2;
+  border-color: #008080;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 10px;
+}
+
+input:focus{
+  border-color: #ebccfb;
+  border-color: #ff7f50;
+  border-width: 3px;
+  outline: none;
+}
+
+input:focus::placeholder{
+  color: #bd55f2;
+  color: #008080;
+}
+
+textarea{ 
+  color: #bd55f2;
+  color: #008080;
+  padding: 10px;
+  border-color: #bd55f2;
+  border-color: #008080;
+  background: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: medium;
+  resize: none;
+}
+
+textarea:focus{
+  border-color: #ebccfb;
+  border-color: #ff7f50;
+  border-width: 3px;
+  outline: none;
+}
+
+textarea:focus::placeholder{
+  color: #bd55f2;
+  color: #008080;
+}
+
+form ::placeholder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ebccfb;
+  color: #ff7f50;
+}
+
+.message>td{
+  padding-top: 10px;
+}
+
+#submit{
+  background-color: #ebccfb;
+  background-color: #ff7f50;
+  font-family: 'Pixelify Sans', serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:  #bd55f2;
+  color: #008080;
+}
+
+#submit:hover{
+  color: #ebccfb;
+  color: #ff7f50;
+  background-color: #bd55f2;
+  background-color: #008080;
+}
+
+div>p{
+  margin-left: 535px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+div>p>a>i{
+  color:#bd55f2;
+  color: #008080;
+}
+
+div>p>a>i:hover{
+  color: #ebccfb;
+  color: #ff7f50;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px  #b789ef;
+  }
+  to {
+    text-shadow: 0 0 30px  #b789ef; 
+  }
+}

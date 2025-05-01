@@ -1,12 +1,11 @@
 .fa-home{
-  color:#e0acfa;
   color: #ff7f50;
   animation: glow 1s infinite alternate;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 5px  #b789ef;/*#6b35af*/
+    text-shadow: 0 0 5px  #b789ef;
   }
   to {
     text-shadow: 0 0 30px  #b789ef; 
@@ -14,15 +13,14 @@
 }
 
 div>p{
-  margin-left: 400px;
-  margin-top: 30px;
   font-size: 30px;
-  color: #bd55f2;
   color: #008080;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 80%;
 }
 
 div>p>span{
-  color: #ebccfb;
   color: #ff7f50;
 }
 
@@ -39,7 +37,7 @@ div>p>span{
   
 @keyframes typing {
     from { width: 0; }
-    to { width: 50%; }
+    to { width: 100%; }
 }
 
 @keyframes blink {
@@ -50,37 +48,41 @@ button{
   background: transparent;
   border: none;
   font-size: larger;
-  margin-left: 420px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  color: #008080;
 }
 
-.fa-file-pdf-o:hover{
-  color:#e0acfa;
+button:hover {
   color: #ff7f50;
-  animation: glow 1s infinite alternate;
 }
 
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px  #b789ef;/*#6b35af*/
+@media only screen and (max-width: 768px) {
+  div>p {
+    font-size: 24px;
+    margin: 20px auto;
   }
-  to {
-    text-shadow: 0 0 30px  #b789ef; 
+
+  .typing-text {
+    white-space: normal;
+    animation: none;
+    width: 100%;
+  }
+
+  .typing-text::after {
+    content: '';
+    animation: none;
   }
 }
 
-/* MEDIA QUERY 
-
-@media only screen and (min-width:480px){
-  div>p{
-    display: block;
-    float: right;
-    margin-left: 10px;
-    margin-top: 30px;
+@media only screen and (max-width: 480px) {
+  div>p {
     font-size: 20px;
-    color: #bd55f2;
+    margin: 15px auto;
   }
-}*/
 
-
-
-  
+  button {
+    font-size: medium;
+  }
+}
